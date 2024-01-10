@@ -32,9 +32,9 @@ const HeroSection = () => {
                 can remember.`}
               </p>
               <p>
-              {`I'm a passionate developer deeply in love with computer science,
+              I am a passionate developer deeply in love with computer science,
                 who can boast a <strong>robust programming background</strong> that
-                spans almost a decade.`}
+                spans almost a decade.
               </p>
               <p>
                 My coding journey began at a really young age, so I had the chance to try different fields
