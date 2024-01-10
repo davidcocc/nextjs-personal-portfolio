@@ -19,7 +19,7 @@ const skillsCategories = [
 const SkillsSection = () => {
   const [openSections, setOpenSections] = useState([]);
   const [iconState, setIconState] = useState(
-    skillsCategories.map(() => <FaChevronDown key={index} size={16} style={{ opacity: 0.5 }}/>)
+    skillsCategories.map((category, index) => <FaChevronDown key={index} size={16} style={{ opacity: 0.5 }}/>)
   );
 
   const toggleSection = (index) => {
