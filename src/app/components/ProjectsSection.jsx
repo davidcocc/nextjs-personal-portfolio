@@ -109,7 +109,7 @@ const ProjectsSection = () => {
         My Projects
       </h2>
       <p className="text-[#f1f1f1] sm:text-lg mb-6 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">
-      During my computer science adventure, I've started a lot of cool academic and personal projects. They've been my training ground for tech and soft skills, so let me give you a little sneak peek into some of the ones that I am most proud of or I just find more relevant.
+      {`During my computer science adventure, I've started a lot of cool academic and personal projects. They've been my training ground for tech and soft skills, so let me give you a little sneak peek into some of the ones that I am most proud of or I just find more relevant.`}
       </p>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

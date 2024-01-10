@@ -28,13 +28,13 @@ const HeroSection = () => {
           content: (
             <>
               <p>
-                I've been living with computers and technology for as long as I
-                can remember.
+              {`I've been living with computers and technology for as long as I
+                can remember.`}
               </p>
               <p>
-                I'm a passionate developer deeply in love with computer science,
+              {`I'm a passionate developer deeply in love with computer science,
                 who can boast a <strong>robust programming background</strong> that
-                spans almost a decade.
+                spans almost a decade.`}
               </p>
               <p>
                 My coding journey began at a really young age, so I had the chance to try different fields
@@ -75,7 +75,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 sm:grid-cols-12">
         <div className="col-span-12 md:col-span-5 md:place-self-center lg:place-self-start xl:text-right">
           <h1 className="text-white mb-4 text-4xl md:ml-8 xl:ml-8 mt-24 sm:text-5xl lg:text-6xl font-extrabold text-center sm:text-left">
-            hi, i'm
+          {`hi, i'm`}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#8A278D] via-[#F0028D] to-[#12CAB5]">
               <TypeAnimation sequence={[" david"]} wrapper="span" speed={50} />
             </span>

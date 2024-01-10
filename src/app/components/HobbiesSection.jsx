@@ -30,10 +30,10 @@ const ResponsiveSlider = () => {
         My Hobbies
       </h2>
       <p className="text-[#f1f1f1] sm:text-lg mb-2 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">
-      No doubt about it: without my passions, I wouldn't be the person I am today. My greatest love is for <strong>music</strong>: I'm a decent level self-taught <strong>guitarist</strong> and <strong>bassist</strong> with a little background of <strong>music production</strong>. Learning to play has taught me the value of dedication and sacrifice, and it's probably the most enjoyable thing I do, even if I'm not as skilled as I'd like to be. But hey, <strong>the grind never stops</strong>!
+      {`No doubt about it: without my passions, I wouldn't be the person I am today. My greatest love is for <strong>music</strong>: I'm a decent level self-taught <strong>guitarist</strong> and <strong>bassist</strong> with a little background of <strong>music production</strong>. Learning to play has taught me the value of dedication and sacrifice, and it's probably the most enjoyable thing I do, even if I'm not as skilled as I'd like to be. But hey, <strong>the grind never stops</strong>!`}
       </p>
       <p className="text-[#f1f1f1] sm:text-lg mb-6 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">
-      Sure, I have a huge love for video games, manga and visual arts in general, but when it comes to listening to music, some say I'm a real fanatic! Here's a rundown of some albums that have had a profound impact on shaping who I am:
+      {`Sure, I have a huge love for video games, manga and visual arts in general, but when it comes to listening to music, some say I'm a real fanatic! Here's a rundown of some albums that have had a profound impact on shaping who I am:`}
       </p>
     <div>
       <style>

@@ -67,7 +67,8 @@ const EducationSection = () => {
           <div className="flex items-center md:ml-2">
             <div>
               <h3 className="text-lg font-semibold">
-                Bachelor's Degree in<br></br>Computer Science
+              {`Bachelor's Degree`} in <br></br>
+                Computer Science
               </h3>
               <p className="text-gray-300">2020 - 2023</p>
               <p className="text-gray-300">
@@ -97,7 +98,7 @@ const EducationSection = () => {
           <div className="flex items-center md:ml-2">
             <div>
               <h3 className="text-lg font-semibold">
-                Master's Degree in<br></br>
+              {`Master's`} Degree in<br></br>
                 Data Science and Machine Learning
               </h3>
               <p className="text-gray-300">2023 - 2025 (expected)</p>
