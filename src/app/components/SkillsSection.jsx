@@ -6,12 +6,12 @@ import { useTransition, animated } from "react-spring";
 import { FaRobot, FaLaptopCode, FaNetworkWired, FaDiceD20, FaCalculator, FaChevronDown, FaChevronRight, FaPencilAlt } from "react-icons/fa";
 
 const skillsCategories = [
-  { title: "AI and Machine Learning", icon: <FaRobot size={24} />, skills: ["Main Frameworks, Tools and Libraries", "Natural Language Processing","Computer Vision", "Probability and Statistics", "R for Data Analysis and Visualization", "Big Data", "Deep Learning", "Neural Networks"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/>},
-  { title: "Programming", icon: <FaLaptopCode size={24} />, skills: ["Python", "C, C# and C++", "Java", "SQL", "Rust"], icon2: <FaChevronDown size={16} /> },
-  { title: "Web Development", icon: <FaNetworkWired size={24} />, skills: ["HTML and CSS", "PHP", "JavaScript", "Node.js and Next.js", "React", "Flutter and Dart", "TypeScript", "TailwindCSS, Bootstrap"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
-  { title: "Computing", icon: <FaCalculator size={24} />, skills: ["Git and Github", "Windows, Linux", "LaTeX", "Algorithm Design", "Computational Theory", "Cloud Platforms"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
-  { title: "Soft Skills", icon: <FaPencilAlt size={24} />, skills: ["High ability to work in a team", "Effective and precise communication", "Adaptability to any environment and technology", "Curiosity and continuous learning", "Open-mindedness and creativity", "Excellent problem-solving skills", "Excellent organization and time management"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
-  { title: "Miscellaneous", icon: <FaDiceD20 size={24} />, skills: ["Unity Engine", "Unreal Engine", "Godot Engine", "AR, VR and XR Development", "Basic Knowledge of Adobe Creative Suite", "Basic Knowledge of Blender", "Music Software (Audacity, Ableton, FLStudio...)"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
+  { title: "AI and Machine Learning", icon: <FaRobot size={24} />, skills: ["Main Frameworks, Tools and Libraries", "Natural Language Processing","Computer Vision", "Probability and Statistics", "R for Data Analysis and Visualization", "Big Data", "Deep Learning", "Neural Networks", "...and more"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/>},
+  { title: "Programming", icon: <FaLaptopCode size={24} />, skills: ["Python", "C, C# and C++", "Java", "SQL", "...and more"], icon2: <FaChevronDown size={16} /> },
+  { title: "Web Development", icon: <FaNetworkWired size={24} />, skills: ["HTML and CSS", "PHP", "JavaScript", "Node.js and Next.js", "React", "Flutter and Dart", "TypeScript", "TailwindCSS, Bootstrap", "...and more"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
+  { title: "Computing", icon: <FaCalculator size={24} />, skills: ["Git and Github", "Windows, Linux", "Algorithm Design", "Computational Theory", "Cloud Platforms", "...and more"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
+  { title: "Soft Skills", icon: <FaPencilAlt size={24} />, skills: ["Effective and precise communication", "Adaptability to any environment and technology", "Curiosity and continuous learning", "Open-mindedness and creativity", "Excellent problem-solving skills", "Excellent organization and time management", "...and more"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
+  { title: "Miscellaneous", icon: <FaDiceD20 size={24} />, skills: ["Unity Engine", "Unreal Engine", "AR, VR and XR Development", "Basic Knowledge of Adobe Creative Suite", "Basic Knowledge of Blender", "Music Software (Audacity, Ableton, FLStudio...)", "...and more"], icon2: <FaChevronDown size={16} style={{ opacity: 0.5 }}/> },
 ];
 // ...
 // ...

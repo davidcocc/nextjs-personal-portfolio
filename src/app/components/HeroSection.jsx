@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { Analytics } from "@vercel/analytics/react"
 import Image from "next/image";
 import { language, setLanguage, toggleLanguage } from "./Navbar.jsx";
 import { TypeAnimation } from "react-type-animation";
@@ -46,7 +47,7 @@ const HeroSection = () => {
               </p>
               <p>
                 I maintain a keen eye for intertwining computer science with my
-                greatest passions, such as music. Doing so, I embark on
+                greatest passions, such as <strong>music</strong>. Doing so, I embark on
                 functional and educational personal projects in which I can best
                 express my open, <strong>creative and curious mindset</strong>, taking advantage of my ability to learn quickly and be very versatile.
               </p>
@@ -90,7 +91,11 @@ const HeroSection = () => {
                 height={250}
               />
             </div>
-            <div className="flex center mt-6 md:ml-12 xl:ml-12 flex-col sm:flex-row">
+            <div className="text-center mt-4 md:ml-12 xl:ml-12 flex-col sm:flex-row text-[#c5b0ca]">
+              <p>David Coccorullo</p> <p>(he/him)</p>
+              <p>Salerno, Italy</p>
+            </div>
+            <div className="flex center mt-3 md:ml-12 xl:ml-12 flex-col sm:flex-row">
               <button
                 className="bg-transparent hover:bg-[#303a50] text-white px-4 py-2 rounded-md mb-2 sm:mb-0 sm:mr-2"
                 onClick={() => handleButtonClick("https://github.com/davidcocc/")}
@@ -110,7 +115,7 @@ const HeroSection = () => {
                 onClick={() => handleButtonClick("https://google.com")}
               >
                 <FontAwesomeIcon icon={faFilePdf} className="mr-2" />
-                CV
+                Resume
               </button>
             </div>
           </div>
