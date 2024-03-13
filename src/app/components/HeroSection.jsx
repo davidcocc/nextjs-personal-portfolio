@@ -111,7 +111,7 @@ const HeroSection = () => {
               </button>
               <button
                 className="bg-transparent hover:bg-[#ba0c2f] text-white px-4 py-2 rounded-md"
-                onClick={() => handleButtonClick("https://google.com")}
+                onClick={() => handleButtonClick("/public/CoccorulloDavidResume.pdf")}
               >
                 <FontAwesomeIcon icon={faFilePdf} className="mr-2" />
                 Resume
