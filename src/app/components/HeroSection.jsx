@@ -20,6 +20,10 @@ const HeroSection = () => {
     window.location.href = url;
   };
 
+  const pdfClick = (url) => {
+    window.open(url, '_blank');
+  };
+
   const getDynamicContent = () => {
     switch (activeTab) {
       default:
@@ -104,7 +108,7 @@ const HeroSection = () => {
               </button>
               <button
                 className="bg-transparent hover:bg-[#4967aa] text-white px-4 py-2 rounded-md mb-2 sm:mb-0 sm:mr-2"
-                onClick={() => handleButtonClick("https://www.linkedin.com/in/davidcocc/")}
+                onClick={() => pdfClick("https://www.linkedin.com/in/davidcocc/")}
               >
                 <FontAwesomeIcon icon={faLinkedin} className="mr-2" />
                 LinkedIn
