@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { Analytics } from "@vercel/analytics/react"
 import Image from "next/image";
 import { language, setLanguage, toggleLanguage } from "./Navbar.jsx";
 import { TypeAnimation } from "react-type-animation";
