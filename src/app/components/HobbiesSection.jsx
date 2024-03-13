@@ -332,7 +332,7 @@ const ResponsiveSlider = () => {
     <p className="text-[#f1f1f1] sm:text-lg mt-6 mb-2 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">
     {`One thing you should know about me is that I have a passion for keeping my music meticulously organized. Allow me to introduce you to my <strong>monthly playlist obsession</strong>!`}
     </p>
-    <p className="text-[#f1f1f1] sm:text-lg mt-2 mb-8 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">{`Over the past three years, I've curated a collection of my favorite tracks. If you're curious to learn more about me, I invite you to take a listen to <strong>this month's playlist!</strong>`}</p>
+    <p className="text-[#f1f1f1] sm:text-lg mt-2 mb-8 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">{`Over the past three years, I heve curated a collection of my favorite tracks. If youre curious to learn more about me, I invite you to take a listen to <strong>this month playlist!</strong>`}</p>
       <p align="center"><iframe src="https://open.spotify.com/embed/playlist/52gsCT8tac85uOcf7LEhEZ" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></p>
     </section>
   );
