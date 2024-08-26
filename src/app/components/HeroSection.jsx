@@ -29,6 +29,7 @@ const HeroSection = () => {
       default:
         return {
           title: "About Me",
+
           content: (
             <>
               <p>
@@ -37,8 +38,7 @@ const HeroSection = () => {
               </p>
               <p>
               I am a passionate developer deeply in love with computer science,
-                who can boast a <strong>robust programming background</strong> that
-                spans almost a decade.
+                with a <strong>robust programming background</strong>.
               </p>
               <p>
                 My coding journey began at a really young age, so I had the chance to try different fields
@@ -49,12 +49,13 @@ const HeroSection = () => {
                 <strong>Game Development</strong>.
               </p>
               <p>
-                I maintain a keen eye for intertwining computer science with my
-                greatest passions, such as <strong>music</strong>. Doing so, I embark on
+                I like to find new ways of mixing computer science with my
+                greatest passions, such as <strong>music</strong>, realizing
                 functional and educational personal projects in which I can best
                 express my open, <strong>creative and curious mindset</strong>, taking advantage of my ability to learn quickly and be very versatile.
               </p>
             </>
+            
           ),
         };
 

@@ -33,7 +33,7 @@ const ResponsiveSlider = () => {
       No doubt about it: without my passions, I would not be the person I am today. My greatest love is for <strong>music</strong>: I am a decent level self-taught <strong>guitarist</strong> and <strong>bassist</strong> with a little background of <strong>music production</strong>. Learning to play has taught me the value of dedication and sacrifice; I really love doing it, although I am not as skilled as I would like to be. But hey, <strong>the grind never stops</strong>!
       </p>
       <p className="text-[#f1f1f1] sm:text-lg mb-6 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">
-      {`Sure, I have a huge love for video games, manga and visual arts in general, but when it comes to listening to music, some say I'm a real fanatic! Here's a rundown of some albums that have had a profound impact on shaping who I am:`}
+      {`Sure, I have a huge love for video games, manga and visual arts in general, but when it comes to listening to music, some say I'm a real fanatic! Here's a rundown of some albums that have had a profound impact on shaping who I am (click to listen!): `}
       </p>
     <div>
       <style>
@@ -333,7 +333,7 @@ const ResponsiveSlider = () => {
     One thing you should know about me is that I have a passion for keeping my music meticulously organized. Allow me to introduce you to my <strong>monthly playlist obsession</strong>!
     </p>
     <p className="text-[#f1f1f1] sm:text-lg mt-2 mb-8 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">{`Over the past three years, I've curated a collection of my favorite tracks. If you're curious to learn more about me, I invite you to take a listen to this month's playlist!`}</p>
-      <p align="center"><iframe src="https://open.spotify.com/embed/playlist/52gsCT8tac85uOcf7LEhEZ" width="600" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe></p>
+      <p align="center"><iframe src="https://open.spotify.com/embed/playlist/4LyNBC9WYEVmoSRxUJPaDU?utm_source=generator&theme=0" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
     </section>
   );
 };

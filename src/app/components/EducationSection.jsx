@@ -107,7 +107,7 @@ const EducationSection = () => {
                   University of Salerno
                 </a>
               </p>
-              <p className="text-gray-300">??/110</p>
+              <p className="text-gray-300">??/110 (Current Average Grade: 29.8/30)</p>
             </div>
           </div>
         </motion.div>
