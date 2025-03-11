@@ -8,6 +8,7 @@ import SkillsSection from "./components/SkillsSection";
 import { Montserrat } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+import ExperienceSection from "./components/ExperienceSection";
 
 config.autoAddCss = false;
 
@@ -51,6 +52,7 @@ export default function Home() {
         <StarryBackground />
         <div className="container mt-4 mx-auto px-12 py-4">
           <HeroSection />
+          <ExperienceSection />
           <EducationSection />
           <SkillsSection />
           <ProjectsSection />

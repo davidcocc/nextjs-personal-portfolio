@@ -5,6 +5,7 @@ import Image from "next/image";
 import { language, setLanguage, toggleLanguage } from "./Navbar.jsx";
 import { TypeAnimation } from "react-type-animation";
 import EducationSection from "./EducationSection.jsx";
+import ExperienceSection from "./ExperienceSection.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
@@ -69,6 +70,11 @@ const HeroSection = () => {
           title: "Skills",
           content: <ul style={{ lineHeight: "2.0", marginLeft: "12px" }}></ul>,
         };
+      case "Test4":
+        return {
+          title: "Experiences",
+          content: <ExperienceSection />,
+        };
     }
   };
 
@@ -97,7 +103,7 @@ const HeroSection = () => {
             </div>
             <div className="text-center mt-4 md:ml-12 xl:ml-12 flex-col sm:flex-row text-[#c5b0ca]">
               <p>David Coccorullo</p> <p>(he/him)</p>
-              <p>Salerno, Italy</p>
+              <p>Salerno, Italy 🇮🇹</p>
             </div>
             <div className="flex center mt-3 md:ml-12 xl:ml-12 flex-col sm:flex-row">
               <button

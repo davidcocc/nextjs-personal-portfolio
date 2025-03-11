@@ -333,7 +333,19 @@ const ResponsiveSlider = () => {
     One thing you should know about me is that I have a passion for keeping my music meticulously organized. Allow me to introduce you to my <strong>monthly playlist obsession</strong>!
     </p>
     <p className="text-[#f1f1f1] sm:text-lg mt-2 mb-8 lg:text-xl lg:text-center xl:text-center sm:text-center md:text-center">{`Over the past three years, I've curated a collection of my favorite tracks. If you're curious to learn more about me, I invite you to take a listen to this month's playlist!`}</p>
-      <p align="center"><iframe src="https://open.spotify.com/embed/playlist/4LyNBC9WYEVmoSRxUJPaDU?utm_source=generator&theme=0" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></p>
+    <div style={{ display: "flex", justifyContent: "center" }}>
+  <iframe
+    style={{ borderRadius: "20px" }}
+    src="https://open.spotify.com/embed/playlist/4CquTqU56zrgtw1vXMf4re?utm_source=generator"
+    align="center"
+    width="50%"
+    height="352"
+    frameBorder="0"
+    allowFullScreen
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+    loading="lazy"
+  ></iframe>
+</div>
     </section>
   );
 };

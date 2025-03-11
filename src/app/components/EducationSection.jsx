@@ -101,7 +101,7 @@ const EducationSection = () => {
               {`Master's`} Degree in<br></br>
                 Data Science and Machine Learning
               </h3>
-              <p className="text-gray-300">2023 - 2025 (expected)</p>
+              <p className="text-gray-300">2023 - 2025 (ongoing)</p>
               <p className="text-gray-300">
                 <a href="https://corsi.unisa.it/informatica-magistrale">
                   University of Salerno
