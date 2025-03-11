@@ -103,7 +103,7 @@ const HeroSection = () => {
             </div>
             <div className="text-center mt-4 md:ml-12 xl:ml-12 flex-col sm:flex-row text-[#c5b0ca]">
               <p>David Coccorullo</p> <p>(he/him)</p>
-              <p>Salerno, Italy 🇮🇹</p>
+              <p>Salerno, Italy</p>
             </div>
             <div className="flex center mt-3 md:ml-12 xl:ml-12 flex-col sm:flex-row">
               <button

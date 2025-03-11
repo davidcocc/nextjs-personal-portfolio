@@ -31,7 +31,7 @@ const ExperienceSection = () => {
               <h3 className="text-lg font-semibold">AI&ML Research Traineeship</h3>
               <p className="text-gray-300">March 2025 - June 2025</p>
               <p className="text-gray-300">Jheronimous Academy of Data Science</p>
-              <p className="text-gray-300">'s-Hertogenbosch, Netherlands 🇳🇱</p>
+              <p className="text-gray-300">s-Hertogenbosch, Netherlands</p>
             </div>
           </div>
         </motion.div>
